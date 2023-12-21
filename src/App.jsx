@@ -2,10 +2,9 @@ import { useState } from 'react'
 import './App.css'
 import { Container, Typography } from '@mui/material'
 import Loginpage from './Components/Loginpage'
-import Demo from './Components/Demo'
-import { Login } from '@mui/icons-material'
-import SignInPage from './Components/SignInPage'
-import SignIn from './Components/SignIn'
+import Sidebar from './Components/Sidebar'
+
+
 
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
 
   return (
     <>
-    <Loginpage />
+    <Sidebar />
     </>
   )
 }
